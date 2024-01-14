@@ -6,7 +6,10 @@
 // else{
 //     console.log('invalid user');
 // }
-// to remove case sensative we have to use this code to valid answer 
+// to remove case Sensative we have to use this code to valid answer 
+// upperCase
+// loweCase
+//localLowerCase
 
 const userName = 'blackPink';
 const userInput = 'blackPinK';
