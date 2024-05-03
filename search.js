@@ -1,4 +1,4 @@
-const lyrics = 'tumu bondhu kala paKhi ame jeno ki, bosonthu kale jeno bolte pare ni';
+const lyrics = 'tumi bondhu kala paKhi ame jeno ki, bosonthu kale jeno bolte pare ni';
 
 const searchString = 'pakhi';
 // const doesExist = lyrics.includes('pakhi');
@@ -33,4 +33,6 @@ else {
 console.log(lyrics.startsWith('2me'));
 
 // end with
-
+ const fileName ='mybiodata.pdf';
+ const otherFile = 'mypic.png'
+ console.log(fileName.endsWith('.pdf'));

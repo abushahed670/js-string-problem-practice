@@ -14,3 +14,13 @@ const sentences = lyrics.split('.');
 
 const partial = lyrics.slice(5, 15);
 console.log(partial);
+
+// trim -- it cut the withe space between end and start.. it has also trimEnd and trimStart too
+const greeting = '  Hello World ';
+console.log(greeting.trim());
+
+//to joint any string 
+
+const lines = ['tumu bondhu kala paKhi, ame jeno ki, bosonthu kale jeno bolte pare ni'];
+const newSong = lines.join(': ');// use gap to make gap end point
+console.log(newSong);
